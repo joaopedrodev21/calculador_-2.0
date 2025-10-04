@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{height:100%}
+body{
+    font-family:Inter, Roboto, system-ui, -apple-system, 'Segoe UI', Arial;
+    background:linear-gradient(180deg,var(--bg),#071029);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    color: var(--text);
+    background-color: #1d2b44;
+}
+h1{
+    margin-bottom: 24px;
+    text-align: center;
+    color: var(--primary);
+    text-shadow: 0 0 8px var(--primary);
+    font-size: 32px;
+    font-weight: 700;
+    color:#9ea6bd
+}
+.calculadora{
+    width: 360px;
+    max-width: 95vw;
+    background:linear-gradient(180deg,var(--panel),#071122);
+    background-color: #0b1220;
+    border-radius: 14px;
+    padding:18px;
+    box-shadow:  20px 20px 60px var(--shadow-dark), -20px -20px 60px var(--shadow-light);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.display{
+    background: rgba(255, 255, 255, 0.353);
+    border-radius: 8px;
+    padding: 14px 12px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap:6px;
+    word-break: break-all;
+}
+.prev{color:var(--muted); font-size:0.9rem}
+.curr{font-size:1.8rem; font-weight:600;}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    color:#ffffff;
+    padding:15px;
+
+}
+.buttons button{
+    border:none;
+    border-radius:10px;
+    padding:18px 14px;
+    font-size:20px;
+    color:#FFF;
+    box-shadow:2px 2px 6px rgba(0,0,0,0.6);
+    transition: all 0.15s ease;
+    cursor:pointer;
+    user-select:none;
+    background-color: #be5c0c;
+}
+.buttons .limpar{
+    background-color: #d30b00;
+    grid-column: span 2;
+}
+.info{
+    margin-top:12px;
+    text-align:center;
+    font-size:16px;
+    color: #9ea6bd;
+    background-color: #0b1220;
+    padding:10px;
+    border-radius: 5px;
+}
+footer{
+    margin-top:18px;
+    font-size:16px;
+    color: #9ea6bd;
+}
+footer a{
+    color:#be5c0c;
+    font-weight:600;
+    cursor:pointer;
+    text-decoration:none;
+}

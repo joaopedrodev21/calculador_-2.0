@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora 2.0</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <h1>Calculadora 2.0</h1>
+  <main class="calculadora" role="application" aria-label="Calculadora tradicional">
+    <div class="display" aria-live="polite">
+      <div class="prev" aria-label="Historial de operaciones"></div>
+      <div class="curr" aria-label="Resultado actual">0</div>
+    </div>
+    
+    <div class="buttons">
+      <button class="limpar" data-action="limpar">C</button>
+      <button data-action="porcentagem">%</button>
+      <button class="operator" data-action="dividir">÷</button>
+      
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button class="operador" data-action="multiplicar">×</button>
+
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button class="operator" data-action="subtrair">−</button>
+
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button class="operador" data-action="somar">+</button>
+
+      <button data-number>0</button>
+      <button data-action="decimal">.</button>
+      <button data-action="apagar">⌫</button>
+      <button class="igual" data-action="igual">=</button>
+    </div>
+  </main>
+  <div class="info">Você pode digitar com o teclado também</div>
+  <footer><p>Desenvolvido por <a href="https://github.com/joaopedrodev21">João Pedro</a></p></footer>
+  <script src="src/script.js"></script>
+</body>
+</html>

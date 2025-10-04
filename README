@@ -1,0 +1,60 @@
+# Calculadora 2.0 🧮
+
+Uma calculadora moderna e responsiva desenvolvida com HTML, CSS e JavaScript, oferecendo uma experiência de usuário intuitiva tanto para desktop quanto para dispositivos móveis.
+
+![Calculadora](https://img.shields.io/badge/Status-Funcional-brightgreen)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%2C%20CSS%2C%20JavaScript-blue)
+
+## Características
+
+- **Design Moderno**: Interface limpa com gradientes e efeitos visuais elegantes
+- **Responsiva**: Adapta-se perfeitamente a diferentes tamanhos de tela
+- **Duas Formas de Entrada**: Clique nos botões ou use o teclado
+- **Operações Básicas**: Adição, subtração, multiplicação e divisão
+- **Funcionalidades Extras**: 
+  - Porcentagem (%)
+  - Ponto decimal
+  - Limpar display (C)
+  - Apagar último dígito (⌫)
+- **Feedback Visual**: Efeitos hover e active nos botões
+- **Acessibilidade**: Atributos ARIA para melhor experiência de usuários com deficiência visual
+
+## Como Usar
+
+### Via Mouse/Toque
+1. Clique nos botões numéricos para inserir números
+2. Selecione a operação desejada (+, -, ×, ÷)
+3. Clique no botão "=" para obter o resultado
+4. Use "C" para limpar tudo ou "⌫" para apagar o último dígito
+
+### Via Teclado
+- **Números**: 0-9
+- **Operadores**: +, -, *, /
+- **Enter ou =**: Calcular
+- **Esc**: Limpar tudo
+- **Backspace**: Apagar último dígito
+- **.**: Ponto decimal
+- **%**: Porcentagem
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Estrutura semântica com atributos ARIA
+- **CSS3**: 
+  - Grid Layout para organização dos botões
+  - Variáveis CSS para consistência de cores
+  - Gradientes e sombras para efeitos visuais
+  - Design responsivo com media queries
+- **JavaScript Vanilla**:
+  - Manipulação do DOM
+  - Gerenciamento de estado da calculadora
+  - Event listeners para mouse e teclado
+  - Lógica de cálculo e validações
+
+## Estrutura do Projeto
+calculadora/
+│
+├── index.html # Estrutura principal
+├── src/
+│ ├── style.css # Estilos e design
+│ └── script.js # Lógica e interatividade
+└── README.md # Documentação
