@@ -41,7 +41,7 @@ function handleDecimal() {
 // Função para lidar com ações (operadores e comandos)
 function handleAction (action) {
     switch(action){
-        case 'limpar': // CORRIGIDO: era 'C'
+        case 'limpar':
             prev = '';
             curr = '0';
             operator = null;
@@ -192,4 +192,5 @@ document.querySelector('.buttons').addEventListener('click', (e) => {
 })
 
 document.addEventListener('keydown', handleKeyboardInput);
+
 updateDisplay();
